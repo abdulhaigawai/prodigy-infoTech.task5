@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.weather-form {
+    margin: 20px auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.weather-form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.weather-form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: #4facfe;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.weather-form button:hover {
+    background: #00c6ff;
+}
+
+.weather-info, .error-message {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    text-align: left;
+}
+
+.weather-info p {
+    margin: 5px 0;
+}
+
+.error-message {
+    background: #ffcccc;
+    color: #900;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    font-size: 0.9rem;
+}
